@@ -3,45 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Links</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      background-color: #f4f4f4;
-    }
-
-    .button-container {
-      display: flex;
-      gap: 20px;
-    }
-
-    .button {
-      text-decoration: none;
-      background-color: #007bff;
-      color: white;
-      padding: 15px 30px;
-      border-radius: 10px;
-      font-size: 16px;
-      font-weight: bold;
-      border: none;
-      transition: background-color 0.3s ease;
-      text-align: center;
-    }
-
-    .button:hover {
-      background-color: #0056b3;
-    }
-  </style>
+  <title>Colorblind Test</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="button-container">
-    <a class="button" href="https://www.youtube.com/@NuclearGotBeamed" target="_blank">MY YouTube Channel</a>
-    <a class="button" href="https://www.roblox.com/users/4780812931/profile" target="_blank">My Roblox Account</a>
+  <h1>Colorblind Test</h1>
+  <div id="test-container">
+    <div class="test">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Ishihara_9.png" alt="Colorblind Test Image 1">
+      <label for="answer1">What number do you see?</label>
+      <input type="text" id="answer1">
+    </div>
+    <button id="submit">Submit</button>
   </div>
+  <div id="result"></div>
+
+  <script src="script.js"></script>
 </body>
 </html>
