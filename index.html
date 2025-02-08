@@ -7,15 +7,32 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Colorblind Test</h1>
-  <div id="test-container">
-    <div class="test">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Ishihara_9.png" alt="Colorblind Test Image 1">
-      <label for="answer1">What number do you see?</label>
-      <input type="text" id="answer1">
-    </div>
-    <button id="submit">Submit</button>
+  <div class="button-container">
+    <a class="button" href="https://www.youtube.com/@NuclearGotBeamed" target="_blank">MY YouTube Channel</a>
+    <a class="button" href="https://www.roblox.com/users/4780812931/profile" target="_blank">My Roblox Account</a>
   </div>
+
+  <h1>Colorblind Test</h1>
+  <h2>Colorblind Test Images</h2>
+  <div class="image-gallery">
+    <div class="image-item">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ishihara_9.png/600px-Ishihara_9.png?20190411074235" alt="Ishihara Test Image 74">
+      <p>What number do you see?</p>
+      <input type="text" id="answer1" placeholder="Enter your answer">
+    </div>
+    <div class="image-item">
+      <img src="https://e7.pngegg.com/pngimages/74/815/png-clipart-ishihara-test-ishihara-s-tests-for-colour-deficiency-color-blindness-visual-perception-deuteranopia-others-miscellaneous-color-thumbnail.png" alt="Ishihara Test Image 42">
+      <p>What number do you see?</p>
+      <input type="text" id="answer2" placeholder="Enter your answer">
+    </div>
+    <div class="image-item">
+      <img src="https://e7.pngegg.com/pngimages/285/107/png-clipart-ishihara-test-color-blindness-color-vision-visual-perception-eye-test-toddler-color-thumbnail.png" alt="Ishihara Test Image 12">
+      <p>What number do you see?</p>
+      <input type="text" id="answer3" placeholder="Enter your answer">
+    </div>
+  </div>
+
+  <button id="submit">Submit Answers</button>
   <div id="result"></div>
 
   <script src="script.js"></script>
